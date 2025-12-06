@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Chats to PDF</title>
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo-area">
+        <img src="../icons/icon48.png" alt="Logo" class="logo" id="app-logo">
+        <h1>AI Chats to PDF</h1>
+      </div>
+      <div class="status-badge" id="status-badge">
+        <span class="status-dot"></span>
+        <span id="platform-name">Detecting...</span>
+      </div>
+    </header>
+
+    <main>
+      <div class="card">
+        <div class="info-row">
+          <span class="label">Active Tab</span>
+          <span class="value" id="tab-url">...</span>
+        </div>
+        
+        <div class="controls">
+          <label class="toggle-switch">
+            <input type="checkbox" id="timestamp-toggle" checked>
+            <span class="slider"></span>
+            <span class="toggle-label">Include Timestamps</span>
+          </label>
+        </div>
+
+        <button id="download-btn" class="primary-btn" disabled>
+          <span class="btn-text">Download Chat as PDF</span>
+          <span class="btn-icon">↓</span>
+        </button>
+        
+        <div id="message-area" class="message-area"></div>
+      </div>
+    </main>
+
+    <footer>
+      <p>Supports ChatGPT, DeepSeek, Grok, Gemini</p>
+    </footer>
+  </div>
+  <script src="../lib/html2pdf.bundle.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
