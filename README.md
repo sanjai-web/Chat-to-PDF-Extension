@@ -2,6 +2,9 @@
 
 A Chrome extension that allows you to download your AI chat conversations from ChatGPT, DeepSeek, Grok, and Gemini as beautifully formatted PDF files with a dark theme.
 
+<img width="1906" height="1148" alt="image" src="https://github.com/user-attachments/assets/cf4b4568-7d60-4fb5-9aae-1166b3c11bbb" />
+
+
 ## Features
 
 - 🎨 **Dark Mode PDFs** - Professional dark-themed PDF output with custom styling
@@ -19,7 +22,12 @@ A Chrome extension that allows you to download your AI chat conversations from C
 | Grok | x.ai, grok.com | ✅ Supported |
 | Gemini | gemini.google.com | ✅ Supported |
 
+
+<img width="1901" height="1139" alt="image" src="https://github.com/user-attachments/assets/4af5a8cd-e020-41b7-9a48-779fdd9c5e6e" />
+
+
 ## Installation
+
 
 ### From Source
 
